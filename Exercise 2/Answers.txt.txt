@@ -1,0 +1,8 @@
+1. What happens when the number of hidden nodes increase? 
+Increasing the number of hidden nodes initially increases the accuracy of the model. However, after a certain point, 
+increasing the number of hidden nodes can lead to overfitting, which can decrease the accuracy on the test set. In this
+case, the accuracy peaks at around 5 hidden units and then starts to decrease as the number of hidden units is increased further.
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+It has the lowest accuracy for 1 hidden unit and maximum accuracy for 5 hidden units. Between 1 hidden unit to 50 hidden units,
+the accuracy of the model fluctuates from 67.5% to 91.25%
